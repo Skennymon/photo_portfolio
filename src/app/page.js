@@ -4,6 +4,26 @@ import Image from "next/image";
 import PhotoGallery from "./components/PhotoGallery";
 
 export default function Home() {
+  
+  const photos = [
+    {photo: "/KennyAuraFarming.jpg", category: "Human", name: "Blud think he's an aura farmer"},
+    {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
+    {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
+    {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
+    {photo: "/KennyAuraFarming.jpg", category: "Human", name: "Blud think he's an aura farmer"},
+    {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
+    {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
+    {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
+    {photo: "/KennyAuraFarming.jpg", category: "Human", name: "Blud think he's an aura farmer"},
+    {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
+    {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
+    {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
+    {photo: "/KennyAuraFarming.jpg", category: "Human", name: "Blud think he's an aura farmer"},
+    {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
+    {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
+    {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
+  ];
+  
   return (
     <>
       <div className="h-full w-full relative flex items-center justify-center">
@@ -12,10 +32,10 @@ export default function Home() {
       </div>
 
       <section className="flex flex-col items-center justify-center mt-7 gap-2">
-        <h2 className="text-2xl md:text-5xl lg:text-7xl">Sneak peek at some of my stuff</h2>
+        <h2 className="text-2xl md:text-5xl lg:text-7xl font-main">Sneak peek at some of my stuff</h2>
         
 
-        <PhotoGallery/>
+        <PhotoGallery photos={photos}/>
       </section>
 
     
