@@ -2,6 +2,9 @@
 import { Oswald } from "next/font/google";
 import Image from "next/image";
 import PhotoGallery from "./components/PhotoGallery";
+import CardReview from "./components/CardReview";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 export default function Home() {
   
@@ -37,8 +40,17 @@ export default function Home() {
         <PhotoGallery photos={photos}/>
       </section>
 
-      <section>
-        Hello
+      <section className="flex flex-col items-center justify-center mt-7 gap-2 p-7">
+        <h2 className="text-2xl font-main md:text-5xl lg:text-7xl">Reviews</h2>
+        <Carousel className="md:w-[90%] w-[75%]" plugins={[Autoplay({delay: 3000})]}>
+          <CarouselContent className="-ml-4">
+            <CarouselItem className="pl-4"><CardReview/></CarouselItem>
+            <CarouselItem className="pl-4"><CardReview/></CarouselItem>
+            <CarouselItem className="pl-4"><CardReview/></CarouselItem>
+          </CarouselContent>
+          <CarouselNext/>
+          <CarouselPrevious/>
+        </Carousel>
       </section>
 
     
