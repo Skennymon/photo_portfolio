@@ -6,7 +6,7 @@ function CardReview() {
             <div className="flex items-center justify-center w-[50%] relative h-full">
                 <Image src="/TroyMewing.jpg" alt="Brian" width={500} height={500}/>
             </div>
-            <div className="flex flex-col gap-2 pr-7 lg:pr-60">
+            <div className="flex flex-col gap-2 pr-7 md:items-left md:justify-center md:w-[50%]">
                 <p className="font-main text-2xl md:text-5xl lg:text-7xl">&quot;Bro made me look majestic&quot;</p>
                 <Image src="/yellow5star.png" width={250} height={250} alt="5 Stars"/>
             </div>
