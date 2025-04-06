@@ -10,18 +10,18 @@ export default function Home() {
     {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
     {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
     {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
-    {photo: "/KennyAuraFarming.jpg", category: "Human", name: "Blud think he's an aura farmer"},
-    {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
-    {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
-    {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
-    {photo: "/KennyAuraFarming.jpg", category: "Human", name: "Blud think he's an aura farmer"},
-    {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
-    {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
-    {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
-    {photo: "/KennyAuraFarming.jpg", category: "Human", name: "Blud think he's an aura farmer"},
-    {photo: "/TheBoys.jpg", category: "Human", name: "The Boys"},
-    {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
-    {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
+    {photo: "/NavidAuraFarming.jpg", category: "Human", name: "Bro IS an aura farmer"},
+    {photo: "/CommHillRed.jpg", category: "Street", name: "Communication Hill Street"},
+    {photo: "/PersonOnStairs.jpg", category: "Human", name: "Cardin"},
+    {photo: "/NavidFlex.jpg", category: "Human", name: "Navid big boy"},
+    {photo: "/Brian.jpg", category: "Human", name: "Brian"},
+    {photo: "/TroyMewing.jpg", category: "Human", name: "Troy Mewing"},
+    {photo: "/SeabassAuraFarming.jpg", category: "Human", name: "Seabass Aura Farming"},
+    {photo: "/Shiba.jpg", category: "Cool", name: "Shiba!"},
+    {photo: "/SFStreet.jpg", category: "Street", name: "Street next to Golden Gate Park"},
+    {photo: "/JapaneseBuilding.jpg", category: "Architecture", name: "Japanese Tea Garden Architecture"},
+    {photo: "/TimothyAuraFarming.jpg", category: "Human", name: "Timothy Aura Farming"},
+    {photo: "/NasirAndAarnav.jpg", category: "Human", name: "Nasir Aura Farming"},
   ];
   
   return (
@@ -32,10 +32,13 @@ export default function Home() {
       </div>
 
       <section className="flex flex-col items-center justify-center mt-7 gap-2">
-        <h2 className="text-2xl md:text-5xl lg:text-7xl font-main">Sneak peek at some of my stuff</h2>
+        <h2 className="text-2xl md:text-5xl lg:text-7xl font-main">Some of my Favorites</h2>
         
-
         <PhotoGallery photos={photos}/>
+      </section>
+
+      <section>
+        Hello
       </section>
 
     
