@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 function Navbar() {
 
     return (
@@ -17,9 +17,9 @@ function Navbar() {
                 </div>
 
                 <div className="hidden md:flex md:items-center md:justify-end gap-7">
-                    <button className="lg:text-4xl md:text-[20px]">Contact</button>
-                    <button className="lg:text-4xl md:text-[20px]">About Me</button>
-                    <button className="lg:text-4xl md:text-[20px]">Incquires</button>
+                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">Contact</Link>
+                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">About Me</Link>
+                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">Incquires</Link>
                 </div>
                 
             </nav>
