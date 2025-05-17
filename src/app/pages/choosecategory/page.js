@@ -17,7 +17,7 @@ export default function Portfolio() {
     {photo: "/CardinStairs.jpg", category: "Human", name: "Cardin"},
     {photo: "/CarLongExposure.jpg", category: "Long Exposure", name: "Car look cool hehe"},
     {photo: "/NavidAuraFarming.jpg", category: "Human", name: "Bro IS an aura farmer"},
-    {photo: "/CommHillRed.jpg", category: "Car", name: "Communication Hill Street"},
+    {photo: "/CommHillRed.jpg", category: "Misc", name: "Communication Hill Street"},
     {photo: "/PersonOnStairs.jpg", category: "Human", name: "Cardin"},
     {photo: "/NavidFlex.jpg", category: "Human", name: "Navid big boy"},
     {photo: "/Brian.jpg", category: "Human", name: "Brian"},
@@ -64,9 +64,25 @@ export default function Portfolio() {
     {photo: "/SeabassStanding.jpg", category: "Human", name: "Seabass Aura Farming"},
     {photo: "/RandomCar.jpg", category: "Car", name: "Random Car"},
     {photo: "/DJ.jpg", category: "Human", name: "DJ"},
+    {photo: "/Jimmy.jpg", category: "Misc", name: "Jimmy 8-Ball"},
+    {photo: "/Coke.jpg", category: "Misc", name: "Coke Ad"},
+    {photo: "/1.jpg", category: "Misc", name: "1"},
+    {photo: "/RedandWhite.jpg", category: "Misc", name: "Red and White Ball"},
+    {photo: "/NasirShot.jpg", category: "Human", name: "Nasir Shot"},
+    {photo: "/NasirBackShot.jpg", category: "Human", name: "Nasir Back Shot (Pause)"},
+    {photo: "/Katana.jpg", category: "Misc", name: "Katana"},
+    {photo: "/Squirel.jpg", category: "Misc", name: "SQUIRELL"},
+    {photo: "/MoreSquirel.jpg", category: "Misc", name: "MORE SQUIRELL"},
+    {photo: "/JapaneseText.jpg", category: "Misc", name: "Japanese Excerpt"},
+    {photo: "/OverSaturated.jpg", category: "Misc", name: "Too Green"},
+    {photo: "/RedBuilding.jpg", category: "Misc", name: "Building"},
+    {photo: "/JapanesePond.jpg", category: "Misc", name: "Pond"},
+    {photo: "/CoolBuilding.jpg", category: "Misc", name: "Cool Building"},
+    {photo: "/Symmetry.jpg", category: "Misc", name: "Symmetry"},
+    {photo: "/SeabassStanding2.jpg", category: "Human", name: "Seabass"},
+    {photo: "/EmilyDriving.jpg", category: "Car", name: "Emily Driving to our Doom"},
+    {photo: "/CarLongExposure.jpg", category: "Misc", name: "Vroom"},
 
-    
-    
     
   ];
 
