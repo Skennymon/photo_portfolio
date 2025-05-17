@@ -61,7 +61,7 @@ const photos = [
     {photo: "/Squirel.jpg", category: "Misc", name: "SQUIRELL"},
     {photo: "/MoreSquirel.jpg", category: "Misc", name: "MORE SQUIRELL"},
     {photo: "/JapaneseText.jpg", category: "Misc", name: "Japanese Excerpt"},
-    {photo: "/OverSaturated.jpg", category: "Misc", name: "Too Green"},
+    {photo: "/Oversaturated.jpg", category: "Misc", name: "Too Green"},
     {photo: "/RedBuilding.jpg", category: "Misc", name: "Building"},
     {photo: "/JapanesePond.jpg", category: "Misc", name: "Pond"},
     {photo: "/CoolBuilding.jpg", category: "Misc", name: "Cool Building"},
