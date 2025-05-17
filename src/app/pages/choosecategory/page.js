@@ -50,8 +50,24 @@ export default function Portfolio() {
     {photo: "/NissanWheelAngle.jpg", category: "Car", name: "Nissan GT-R R33"},
     {photo: "/NissanPortrait.jpg", category: "Car", name: "Nissan GT-R R33"},
     {photo: "/TimoandCardin.jpg", category: "Human", name: "Timo and Cardin"},
+    {photo: "/Kris8Ball.jpg", category: "Human", name: "Kris"},
+    {photo: "/CopCar.jpg", category: "Car", name: "Somebody getting slimed"},
+    {photo: "/Aarnav8Ball.jpg", category: "Human", name: "Aarnav"},
+    {photo: "/SickShot.jpg", category: "Human", name: "Sick Shot"},
+    {photo: "/Troy.jpg", category: "Human", name: "Troy"},
+    {photo: "/Emily.jpg", category: "Human", name: "Sick Shot"},
+    {photo: "/Kris8Ball2.jpg", category: "Human", name: "Kris"},
+    {photo: "/Sai.jpg", category: "Human", name: "Sai"},
+    {photo: "/SickShot.jpg", category: "Human", name: "Sick Shot"},
+    {photo: "/Ronald.jpg", category: "Human", name: "Ronald"},
+    {photo: "/SeabassTheThinker.jpg", category: "Human", name: "Seabass the Thinker"},
+    {photo: "/SeabassStanding.jpg", category: "Human", name: "Seabass Aura Farming"},
+    {photo: "/RandomCar.jpg", category: "Car", name: "Random Car"},
+    {photo: "/DJ.jpg", category: "Human", name: "DJ"},
 
-
+    
+    
+    
   ];
 
     return (
