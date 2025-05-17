@@ -28,6 +28,30 @@ export default function Portfolio() {
     {photo: "/JapaneseBuilding.jpg", category: "Misc", name: "Japanese Tea Garden Architecture"},
     {photo: "/TimothyAuraFarming.jpg", category: "Human", name: "Timothy Aura Farming"},
     {photo: "/NasirAndAarnav.jpg", category: "Human", name: "Nasir Aura Farming"},
+    {photo: "/BlackCar.jpg", category: "Car", name: "Subaru BRZ"},
+    {photo: "/BlackCar2.jpg", category: "Car", name: "Subaru BRZ"},
+    {photo: "/EpicCar.jpg", category: "Car", name: "Nissan Skyline GT-R R34"},
+    {photo: "/EpicCar2.jpg", category: "Car", name: "Nissan Skyline GT-R R34"},
+    {photo: "/GasStation.jpg", category: "Car", name: "Gas Station on Tully Rd"},
+    {photo: "/RedCarEngine.jpg", category: "Car", name: "Engine"},
+    {photo: "/RedCarReflect.jpg", category: "Car", name: "Red Car Cool :o"},
+    {photo: "/BlueEngine.jpg", category: "Car", name: "Engine"},
+    {photo: "/Engine2.jpg", category: "Car", name: "Engine"},
+    {photo: "/GT-R-R33-Back.jpg", category: "Car", name: "Nissan GT-R R33"},
+    {photo: "/GT-R-R33-Front.jpg", category: "Car", name: "Nissan GT-R R33"},
+    {photo: "/GT-R-R33-FrontAngled.jpg", category: "Car", name: "Nissan GT-R R33"},
+    {photo: "/HondaPreludeRed.jpg", category: "Car", name: "Honda Prelude"},
+    {photo: "/Motorcycle.jpg", category: "Car", name: "Motorcycle"},
+    {photo: "/MotorcycleAngle.jpg", category: "Car", name: "Motorcycle"},
+    {photo: "/NissanBack.jpg", category: "Car", name: "Nissan GT-R R33"},
+    {photo: "/NissanFrontAngle.jpg", category: "Car", name: "Nissan GT-R R33"},
+    {photo: "/SteeringWheel.jpg", category: "Car", name: "Steering Wheel"},
+    {photo: "/Wheel.jpg", category: "Car", name: "Wheel"},
+    {photo: "/NissanWheelAngle.jpg", category: "Car", name: "Nissan GT-R R33"},
+    {photo: "/NissanPortrait.jpg", category: "Car", name: "Nissan GT-R R33"},
+    {photo: "/TimoandCardin.jpg", category: "Human", name: "Timo and Cardin"},
+
+
   ];
 
     return (
