@@ -35,7 +35,7 @@ export default function Home() {
         <Image src="/KennyAuraFarming.jpg" alt="Kenny Aura Farming" width={4907} height={4128}/>
         <div className="absolute flex flex-col items-center justify-center gap-7">
           <h1 className="lg:text-7xl md:text-5xl text-2xl font-main">Welcome to my photography stuff</h1>
-          <Link className="w-[5rem] h-[3rem] md:w-[10rem] border rounded-2xl p-7 bg-emerald-300 font-main flex items-center justify-center" href="">Enter Portfolio</Link>
+          <Link className="w-[5rem] h-[3rem] md:w-[10rem] border rounded-2xl p-7 bg-emerald-300 font-main flex items-center justify-center" href="/pages/choosecategory">Enter Portfolio</Link>
         </div>
       </div>
 
