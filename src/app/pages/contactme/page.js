@@ -1,19 +1,8 @@
-"use client"
 import Image from "next/image"
-import { useState } from "react"
+import Form from "next/form"
+import { handleFormSubmission } from "@/app/actions/HandleFormSubmission"
 
 export default function ContactMe() {
-
-    const[firstName, setFirstName] = useState("")
-    const[lastName, setLastName] = useState("")
-    const[email, setEmail] = useState("")
-    const[phoneNumber, setPhoneNumber] = useState("")
-    const[message, setMessage] = useState("")
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-    }
-
 
     return (
         <>
@@ -21,29 +10,35 @@ export default function ContactMe() {
                 <div className="relative w-full h-[25rem]">
                     <Image src="/EpicCar.jpg" alt="Car Picture" fill={true} style={{objectFit: "cover"}}/>
                 </div>
+                <h1 className="font-main text-2xl md:text-4xl">Contact Me!</h1>
 
-                <form className="md:grid md:grid-cols-2 gap-7">
+                <form className="md:grid md:grid-cols-2 gap-7 border p-7 rounded-2xl" action={handleFormSubmission}>
                     <div>
                         <h2>First Name *</h2>
-                        <input className="border" value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
+                        <input className="rounded-sm border h-[2rem]" name="firstName"/>
                     </div>
 
                     <div>
                         <h2>Last Name *</h2>
-                        <input className="border" value={lastName} onChange={(e) => setLastName(e.target.value)}/>
+                        <input className="rounded-sm border h-[2rem]" name="lastName"/>
                     </div>
 
                     <div>
                         <h2>Email *</h2>
-                        <input className="border" type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                        <input className="rounded-sm border h-[2rem]" type="email" name="email"/>
                     </div>
 
                     <div>
                         <h2>Phone *</h2>
-                        <input className="border" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)}/>
+                        <input className="rounded-sm border h-[2rem]" name="phoneNumber"/>
                     </div>
 
-                    <button type="submit" className="border bg-amber-600">Submit</button>
+                    <div>
+                        <h2>Message *Optional</h2>
+                        <textarea className="rounded-sm border h-[10rem] justify-start" name="message"/>
+                    </div>
+
+                    <button type="submit" className="border bg-amber-600 h-[2rem]">Submit</button>
                 </form>
 
 

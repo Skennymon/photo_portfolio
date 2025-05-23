@@ -28,15 +28,13 @@ function Navbar() {
                     </button>
                     <ul className={`flex flex-col border gap-4 w-56 absolute top-10 right-2 rounded-2xl items-center justify-center p-5 bg-gray-950 border-gray-600 shadow-gray-600 shadow transition-all duration-75 ease-in-out z-1 ${dropDown ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}>
                         <Link href="/pages/about" onClick={() => {setDropdown(false)}}>About me</Link>
-                        <Link href="/pages/about" onClick={() => setDropdown(false)}>Contact Me</Link>
-                        <Link href="/pages/about" onClick={() => setDropdown(false)}>Incquires</Link>
+                        <Link href="/pages/contactme" onClick={() => setDropdown(false)}>Contact Me</Link>
                     </ul>
                 </div>
 
                 <div className="hidden md:flex md:items-center md:justify-end gap-7">
                     <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">Contact</Link>
-                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">About Me</Link>
-                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">Incquires</Link>
+                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/contactme">About Me</Link>
                 </div>
                 
             </nav>
