@@ -19,7 +19,7 @@ function About() {
 
                 <section className="flex flex-col items-center justify-center">
                     <div className="relative w-[30rem] h-[20rem] mb-2">
-                        <Image src="/SonyA6700.jpg" alt="Sony A6700" fill={true}/>
+                        <Image src="/Sonya6700.jpg" alt="Sony A6700" fill={true}/>
                     </div>
                     <Link href="https://tinyurl.com/yckbwr69" className="font-main md:text-4xl text-2xl hover:text-amber-600">Sony A6700 w/Sigma 18-50mm F.28</Link>
                     <p className="font-main w-[20rem] md:w-[30rem] lg:w-[50rem] md:text-4xl">I picked up this camera not too long ago from Amazon and I&apos;ve been really enjoying it so far. It&apos;s on the more pricey side, but I think all of the features that it comes with is very nice and
