@@ -3,13 +3,18 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { useClickAway } from "@uidotdev/usehooks"
-import Camera from "./Camera"
+import dynamic from "next/dynamic"
+//import Camera from "./Camera"
 function Navbar() {
 
     const[dropDown, setDropdown] = useState(false);
     const ref = useClickAway(() => {
         setDropdown(false);
     })
+
+    const Camera = dynamic(() => import("./Camera"), {
+        ssr: false,
+    });
 
     return (
         <>

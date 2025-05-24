@@ -4,7 +4,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { OrbitControls, Resize } from '@react-three/drei'
 
 export default function Camera() {
-    const gltf = useLoader(GLTFLoader, "/camera.glb")
+    const gltf = useLoader(GLTFLoader, "/cameramodel.glb")
 
     return (
         <Canvas>
