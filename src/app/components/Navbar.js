@@ -33,8 +33,8 @@ function Navbar() {
                 </div>
 
                 <div className="hidden md:flex md:items-center md:justify-end gap-7">
-                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">Contact</Link>
-                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/contactme">About Me</Link>
+                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/contactme">Contact</Link>
+                    <Link className="lg:text-4xl md:text-[20px]" href="/pages/about">About Me</Link>
                 </div>
                 
             </nav>
