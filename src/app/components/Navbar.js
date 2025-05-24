@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { useClickAway } from "@uidotdev/usehooks"
+import Camera from "./Camera"
 function Navbar() {
 
     const[dropDown, setDropdown] = useState(false);
@@ -14,9 +15,10 @@ function Navbar() {
         <>
             <nav className="grid grid-cols-3 border border-neutral-700 rounded-sm p-4 font-main items-center">
                 
-                <div className="p-1 rounded-md relative w-10 h-10 lg:w-32 lg:h-32 md:w-20 md:h-20">
+                <div className="p-1 rounded-md relative w-30 h-full lg:w-50 lg:h-full md:w-50 md:h-full">
                     <Link href="/">
-                        <Image src="/camera.svg" alt="Camera" fill={true}/>
+                        {/*<Image src="/camera.svg" alt="Camera" fill={true}/>*/}
+                        <Camera/>
                     </Link>
                 </div>
                 
