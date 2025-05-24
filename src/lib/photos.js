@@ -69,6 +69,7 @@ const photos = [
     {photo: "/SeabassStanding2.jpg", category: "Human", name: "Seabass"},
     {photo: "/EmilyDriving.jpg", category: "Car", name: "Emily Driving to our Doom"},
     {photo: "/CarLongExposure.jpg", category: "Misc", name: "Vroom"},
+    {photo: "/KrisAuraFarmingAarnav.jpg", category: "Human", name: "Kris Aura Farming Aarnav"}
   ];
 
   export { photos };
