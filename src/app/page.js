@@ -27,6 +27,10 @@ export default function Home() {
     {photo: "/JapaneseBuilding.jpg", category: "Architecture", name: "Japanese Tea Garden Architecture"},
     {photo: "/TimothyAuraFarming.jpg", category: "Human", name: "Timothy Aura Farming"},
     {photo: "/NasirAndAarnav.jpg", category: "Human", name: "Nasir Aura Farming"},
+    {photo: "/AuraFarmingTree.jpg", category: "Misc", name: "Aura Farming Tree"},
+    {photo: "/DarkShot.jpg", category: "Human", name: "Nasir Aura Farming"},
+    {photo: "/SusBuild.jpg", category: "Misc", name: "Susalitoo so cool"},
+    {photo: "/NasirMiles_2.jpg", category: "Human", name: "NASIR MILES!?!?!?"},
   ];
   
   return (
