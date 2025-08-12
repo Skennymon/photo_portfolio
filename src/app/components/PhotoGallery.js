@@ -7,6 +7,9 @@ import 'lightgallery/css/lg-thumbnail.css';
 // import plugins if you need
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
+import { carPhotos } from '@/lib/car';
+import { humanPhotos } from '@/lib/human';
+import { miscPhotos } from '@/lib/misc';
 
 import Image from 'next/image'
 
@@ -17,13 +20,16 @@ function PhotoGallery({ photos, category }) {
 
     let result = photos;
     if(category === "Car") {
-        result = photos.filter((photo) => photo.category === "Car")
+        // result = photos.filter((photo) => photo.category === "Car")
+        result = carPhotos;
     }
     else if(category === "Human") {
-        result = photos.filter((photo) => photo.category === "Human")
+        // result = photos.filter((photo) => photo.category === "Human")
+        result = humanPhotos;
     }
     else if(category === "Misc") {
-        result = photos.filter((photo) => photo.category === "Misc")
+        // result = photos.filter((photo) => photo.category === "Misc")
+        result = miscPhotos;
     }
 
     //grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-2
