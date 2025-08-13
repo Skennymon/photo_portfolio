@@ -108,6 +108,34 @@ const humanPhotos = [
   },
   { photo: "/TroyPole.jpg", category: "Human", name: "Troy Pole Aura Farming" },
   { photo: "/TroyShot.jpg", category: "Human", name: "Troy Shot" },
+  { photo: "/Monterey2025/Human/BeachHuman.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/BeachLandscape.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/BeachPortrait.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/Cardin.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/CardinAura.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/HumanBalcony.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/KennyAura.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/KennyAura2.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/KennyAura3.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/KennyLookUp.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/RandomPerson1.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/ScubaDivers.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/ScubaDivers2.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/ScubaDivers3.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/ScubaDivers4.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoAuraMonterey.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoAuraMonterey2.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoAuraMonterey3.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoCircle.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoCircle2.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoLookFish.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoLookUp.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoAuraMonterey.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimothyCircle.jpg", category: "Human", name: "" },
+  { photo: "/Monterey2025/Human/TimoWindow.jpg", category: "Human", name: "" },
+
+
+
 ];
 
 export { humanPhotos };
