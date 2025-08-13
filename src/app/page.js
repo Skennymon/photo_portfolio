@@ -31,6 +31,8 @@ export default function Home() {
     {photo: "/DarkShot.jpg", category: "Human", name: "Nasir Aura Farming"},
     {photo: "/SusBuild.jpg", category: "Misc", name: "Susalitoo so cool"},
     {photo: "/NasirMiles_2.jpg", category: "Human", name: "NASIR MILES!?!?!?"},
+    {photo: "/Monterey2025/Misc/Fish36.jpg", category: "Misc", name: "WOW SO COOL"},
+    {photo: "/Monterey2025/Human/TimoLookFish.jpg", category: "Misc", name: "WOW SO COOL"},
   ];
   
   return (
